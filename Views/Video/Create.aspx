@@ -4,13 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>Create</title>
 </head>
 <body>
-    <h1>BIENVENIDO</h1>
-    <hr />
-    <div>
-    
-    </div>
+    <form action = "/Video/Create" method = "phost">
+    <fieldset>
+    <legend>Datos Video</legend>
+    <label for = "idVideo">idVideo</label>
+    <input type = "text" name = "idVideo" />
+    </fieldset>
+    </form>
 </body>
 </html>
